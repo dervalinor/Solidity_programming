@@ -3,6 +3,7 @@
 
 //create a new repository: gh repo create [<name>] [flags] 
 //gh repo create Solidity_programming --public
+//View information about a repository: git repo view 
 
 /* 
 This program defines a SimpleStorage contract that has two functions: set and get. The set function takes an unsigned integer (uint) as an argument and assigns its value to the storedData state variable. The get function returns the current value of storedData.
