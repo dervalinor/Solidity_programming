@@ -14,7 +14,9 @@ This will generate two files in the specified output directory: one with a .bin 
 
 
 In Solidity, a function is declared using the function keyword (similar
-javascript) followed by the function name and its parameters within parentheses. The function body is enclosed within curly braces {}. Here’s an example:
+javascript) followed by the function name and its parameters within
+parentheses. The function body is enclosed within curly braces {}. Here’s an
+example: */
 
 function myFunction(uint x) public {
     // function body
@@ -47,7 +49,11 @@ contract MyContract {
 GitHub CLI is a command-line tool that allows you to interact with GitHub from your terminal. Here are some basic commands:
 
 gh repo clone [repository]: Clone a repository from GitHub to your local machine.
-gh issue list: List issues for the current repository.
+
+gh issue list: List issues for the current repository - An issue in GitHub is
+a way to track bugs, enchancements and other requests (gh issue create)
+Example: gh issue create --title "I found a bug" --body "Nothing works"
+
 gh pr create: Create a new pull request.
 gh pr checkout [number]: Check out a pull request locally by its number.
 */
