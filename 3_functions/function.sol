@@ -55,6 +55,10 @@ a way to track bugs, enchancements and other requests (gh issue create)
 Example: gh issue create --title "I found a bug" --body "Nothing works"
 
 gh pr create: Create a new pull request.
+Pull request: A pull request is a feature provided by GitHub that allows
+developers to propose changes to a codebase (propese merging your changes)
+Example: gh pr create --title "The bug is fixed" --body "Everything works again"
+
 gh pr checkout [number]: Check out a pull request locally by its number.
 */
 
