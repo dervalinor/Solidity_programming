@@ -17,14 +17,14 @@
 // parentheses. The function body is enclosed within curly braces {}. Here’s an
 // example: 
 
-function myFunction(uint x) public {
+//function myFunction(uint x) public {
     // function body
-}
-This declares a public function named myFunction that takes one uint parameter named x
+//}
+//This declares a public function named myFunction that takes one uint parameter named x
 
-Here’s an example of a simple Solidity contract with multiple functions: */
+//Here’s an example of a simple Solidity contract with multiple functions: */
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.5.16;
 
 contract MyContract {
   
