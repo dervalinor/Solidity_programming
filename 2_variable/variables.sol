@@ -14,7 +14,9 @@ needs to be specified with a type1. Here’s an example of how you can declare
 variables in Solidity:
 */
 
-pragma solidity ^0.5.16;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
+
 
 contract MyContract {
 

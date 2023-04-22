@@ -8,7 +8,8 @@
 //Here’s an example of a for loop in Solidity:
 
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.5.16;
+pragma solidity ^0.8.19;
+
 
 contract Loop {
   //we declare the loop function with the pure keyword to indicate that it does not modify the state of the contract or read from it.

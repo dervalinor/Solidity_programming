@@ -12,7 +12,9 @@ This program defines a SimpleStorage contract that has two functions: set and ge
 // This is a comment. Comments are used to explain what the code does.
 
 // This line specifies the version of Solidity that the code is written in.
-pragma solidity ^0.5.16;
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
 // This is a contract. A contract is a collection of code and data that resides at a specific address on the Ethereum blockchain.
 contract SimpleStorage {
     // This is a state variable. State variables are permanently stored in contract storage.

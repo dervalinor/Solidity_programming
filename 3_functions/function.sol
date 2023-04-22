@@ -24,7 +24,9 @@
 
 //Here’s an example of a simple Solidity contract with multiple functions: */
 
-pragma solidity ^0.5.16;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
+
 
 contract MyContract {
   
