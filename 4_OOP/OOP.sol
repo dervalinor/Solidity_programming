@@ -30,7 +30,8 @@
 
 //This simple program demonstrates some basic concepts of OOP such as encapsulation and abstraction. The state variable storedData is encapsulated within the contract and can only be accessed and modified through the functions set() and get(). These functions provide an abstract interface for interacting with the contract without exposing its internal implementation details
 
-pragma solidity ^0.5.16;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
 
 //Class
 contract SimpleStorage {
