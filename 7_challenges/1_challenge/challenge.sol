@@ -12,9 +12,9 @@ contract Counter_contract {
   //declare function store counter
   uint counter = 0;
 
-  //function counter  
-  function counterContract(uint _counter) public {
-    counter = _counter ++;
+  //function counter, Error: The line counter = counter ++; should be changed to counter++;  
+  function counterContract(uint) public {
+    counter = counter++;
   }
   
   //declare function return counter
