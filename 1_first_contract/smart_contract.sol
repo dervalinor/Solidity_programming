@@ -3,6 +3,7 @@
 
 //create a new repository: gh repo create [<name>] [flags] 
 //gh repo create Solidity_programming --public
+//View information about a repository: git repo view 
 
 /* 
 This program defines a SimpleStorage contract that has two functions: set and get. The set function takes an unsigned integer (uint) as an argument and assigns its value to the storedData state variable. The get function returns the current value of storedData.
@@ -11,8 +12,9 @@ This program defines a SimpleStorage contract that has two functions: set and ge
 // This is a comment. Comments are used to explain what the code does.
 
 // This line specifies the version of Solidity that the code is written in.
-pragma solidity ^0.8.0;
 
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
 // This is a contract. A contract is a collection of code and data that resides at a specific address on the Ethereum blockchain.
 contract SimpleStorage {
     // This is a state variable. State variables are permanently stored in contract storage.

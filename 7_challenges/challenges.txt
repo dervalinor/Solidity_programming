@@ -1,0 +1,35 @@
+//Here are some code challenges for beginners in Solidity:
+
+//Create a simple counter contract. The contract should have a 
+//variable that stores the number of times it has been called. 
+//When the contract is called, the variable should be incremented.
+
+//Create a simple mapping contract. The contract should have a 
+//mapping that stores a list of key-value pairs. When the contract is called, 
+//it should allow users to add, update, and delete key-value pairs from the mapping.
+
+//Create a simple event contract. The contract should have an event 
+//that is fired whenever it is called. The event should have 
+//a name and a list of arguments.
+
+//Create a simple contract that implements a basic token. 
+//The contract should have a variable that stores the total supply of tokens.
+// When the contract is called, it should allow users to transfer tokens to each other.
+
+
+//Github cli
+//The `gh release create` command is used to create a new release for a repository on 
+GitHub from the command line. Here's an example of how you can use it:
+
+
+```sh
+gh release create <tag> --title "Release title" --notes 
+"Updated compiler version to 0.8.19 and added SPDX-License-Identifier: MIT license"
+```
+
+`<tag>`: This is the tag for the release. It marks a specific point in your repository's history.
+`--title "Release title"`: This sets the title of the release to "Release title".
+`--notes "Updated compiler version to 0.8.19 and added SPDX-License-Identifier: MIT license"`: This sets the release notes to 
+"Updated compiler version to 0.8.19 and added SPDX-License-Identifier: MIT license".
+
+list releases for a repository: gh release list
